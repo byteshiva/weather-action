@@ -26,6 +26,5 @@ jobs:
           # document: result.html
           message: |
                    Chennai Weather Report (${{env.REPORT_DATE}})
-                   </br>
-                   <b>Temperature</b>: ${{env.DAILY_WEATHER}}
-                   <b>Humidity</b>: ${{env.DAILY_WEATHER}}
+                   Temperature: ${{env.DAILY_WEATHER}}
+                   Humidity: ${{env.DAILY_WEATHER}}
